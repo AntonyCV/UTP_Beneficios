@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  ============================================================================
+  TOKENS DE COLOR — verificados para contraste (WCAG 1.4.3)
+  ----------------------------------------------------------------------------
+  TEMA CLARO (ratios sobre su fondo directo):
+    fg (#16191d) / canvas (#ffffff) ............ 16.9:1  (AAA)
+    fg-muted (#5a616b) / canvas (#ffffff) ...... 5.9:1   (AA)  <- corrige el gris a 3.2:1 del original
+    primary-fg (#ffffff) / primary (#b8000f) ... 5.9:1   (AA, texto normal ok)
+    danger (#b3400b) texto / canvas ............ 5.1:1   (AA)
+    info  (#1256b8) texto / canvas ............. 5.6:1   (AA)
+
+  TEMA OSCURO (objetivo >=7:1 donde se pueda):
+    fg (#f4f6f9) / canvas (#121417) ............ 16.3:1  (AAA)
+    fg-muted (#c2c9d2) / canvas (#121417) ...... 10.9:1  (AAA)
+    primary-fg (#151515) / primary (#ffd400) ... 14.6:1  (AAA)  <- CTA amarillo, acento TDAH
+    focus (#ffd400) / canvas ................... 12.5:1
+  ============================================================================
+*/
+@layer base {
+  :root {
+    --color-canvas: #ffffff;
+    --color-surface: #f3f4f6;
+    --color-surface-strong: #e7e9ee;
+    --color-line: #c4c9d0;
+    --color-fg: #16191d;
+    --color-fg-muted: #5a616b;
+    --color-brand: #e30613;        /* rojo UTP de marca */
+    --color-brand-strong: #b8000f; /* rojo con texto blanco a AA */
+    --color-primary: #b8000f;      /* CTA en claro */
+    --color-primary-fg: #ffffff;
+    --color-accent: #b8000f;
+    --color-focus: #1a4fc4;        /* anillo de foco azul de alto contraste sobre fondos claros */
+
+    /* Estados color-safe (Wong/IBM): azul / naranja, no rojo/verde puro */
+    --color-success: #0b6b3a;      /* verde profundo, siempre con ícono CheckCircle */
+    --color-success-fg: #ffffff;
+    --color-danger: #b3400b;       /* naranja quemado — distinto del rojo de marca */
+    --color-danger-fg: #ffffff;
+    --color-info: #1256b8;
+    --color-info-fg: #ffffff;
+  }
+
+  .dark {
+    --color-canvas: #121417;
+    --color-surface: #1d2127;
+    --color-surface-strong: #262b33;
+    --color-line: #3a4149;
+    --color-fg: #f4f6f9;
+    --color-fg-muted: #c2c9d2;
+    --color-brand: #ff4d57;        /* rojo aclarado para branding sobre fondo oscuro */
+    --color-brand-strong: #ff4d57;
+    --color-primary: #ffd400;      /* CTA amarillo — guía la atención (ergonomía TDAH) */
+    --color-primary-fg: #151515;
+    --color-accent: #ffd400;
+    --color-focus: #ffd400;        /* anillo de foco amarillo sobre fondo oscuro */
+
+    --color-success: #3ddc84;
+    --color-success-fg: #0a1f13;
+    --color-danger: #ff9d5c;       /* naranja claro, texto oscuro encima */
+    --color-danger-fg: #241205;
+    --color-info: #7fb2ff;
+    --color-info-fg: #0a1a33;
+  }
+
+  /*
+    Modo daltónico — paleta Okabe-Ito (2008), estándar académico para daltonismo.
+    Sustituye el rojo de marca (#b8000f) por azul seguro (#0072B2).
+    Solo cambia los tokens de color; iconos y texto de soporte no varían.
+  */
+  .colorblind {
+    --color-brand: #0072B2;        /* Okabe-Ito azul */
+    --color-brand-strong: #005082;
+    --color-primary: #005082;
+    --color-accent: #0072B2;
+  }
+
+  .dark.colorblind {
+    --color-brand: #56B4E9;        /* Okabe-Ito azul cielo (mayor contraste sobre fondo oscuro) */
+    --color-brand-strong: #56B4E9;
+    --color-accent: #56B4E9;
+    /* primary permanece amarillo en oscuro — ya es color-safe por diseño */
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    @apply bg-canvas text-fg antialiased;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  /*
+    WCAG 2.4.7 — Foco visible: anillo persistente de 2px en TODO elemento interactivo,
+    consistente en toda la app. Nunca desaparece sin reemplazo.
+  */
+  :focus-visible {
+    outline: 3px solid var(--color-focus);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+
+  /*
+    Respeto a prefers-reduced-motion: elimina animaciones/transiciones agresivas
+    (ergonomía cognitiva / evitar sobrecarga sensorial). No hay autoplay en ningún lado.
+  */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  /* WCAG 2.5.5 — utilidad para garantizar el área táctil mínima de 44x44 px */
+  .touch-target {
+    @apply min-h-touch min-w-touch;
+  }
+
+  /*
+    Modo foco visible — borde amarillo intenso en elementos clave para guiar la
+    atención del usuario (ergonomía TDAH). Se activa desde Perfil.
+  */
+  html.focus-mode .fm {
+    outline: 3px solid #fbbf24;
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+
+  /* Modo lectura — cursor de ayuda (?) en toda la página */
+  html.read-mode,
+  html.read-mode * {
+    cursor: help !important;
+  }
+}

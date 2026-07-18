@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(npm install)",
+      "PowerShell($paths = @\\(\"$env:ProgramFiles\\\\nodejs\\\\npm.cmd\",\"$env:ProgramFiles\\\\nodejs\\\\node.exe\",\"${env:ProgramFiles\\(x86\\)}\\\\nodejs\\\\npm.cmd\",\"$env:LOCALAPPDATA\\\\Programs\\\\nodejs\\\\npm.cmd\",\"$env:APPDATA\\\\npm\\\\npm.cmd\"\\); foreach \\($p in $paths\\) { if \\(Test-Path $p\\) { Write-Output \"FOUND: $p\" } }; Write-Output \"---where node---\"; \\(Get-Command node -ErrorAction SilentlyContinue\\).Source; Write-Output \"---fnm/nvm---\"; Test-Path \"$env:APPDATA\\\\nvm\"; Test-Path \"$env:LOCALAPPDATA\\\\fnm\")",
+      "PowerShell(Write-Output \"=== winget ===\"; \\(Get-Command winget -ErrorAction SilentlyContinue\\).Source; Write-Output \"=== choco ===\"; \\(Get-Command choco -ErrorAction SilentlyContinue\\).Source; Write-Output \"=== node via where ===\"; where.exe node 2>$null; Write-Output \"done\")",
+      "PowerShell($env:Path = [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"User\"\\); npm install --no-fund --no-audit)",
+      "PowerShell($env:Path = [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"User\"\\); npm approve-scripts esbuild 2>&1; Write-Output \"---rebuild esbuild---\"; npm rebuild esbuild 2>&1)",
+      "PowerShell($env:Path = [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"User\"\\); npx tsc --noEmit)",
+      "Skill(artifact-design)",
+      "Skill(artifact-design:*)"
+    ]
+  }
+}

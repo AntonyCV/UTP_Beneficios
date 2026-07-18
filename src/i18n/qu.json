@@ -1,0 +1,664 @@
+{
+  "_meta": {
+    "variant": "Quechua sureño / Cusco-Collao",
+    "reviewNote": "Claves con terminología técnica sin equivalente estándar. Revisar con hablante nativo antes de producción.",
+    "needsReview": [
+      "onboarding.welcome",
+      "onboarding.subtitle",
+      "login.tagline",
+      "login.codeLabel",
+      "login.codeHelper",
+      "login.passwordLabel",
+      "login.passwordPlaceholder",
+      "login.showPassword",
+      "login.hidePassword",
+      "login.termsPrefix",
+      "login.termsLink",
+      "login.successMessage",
+      "login.errorMessage",
+      "errors.codeFormat",
+      "errors.termsRequired",
+      "terms.body",
+      "theme.light",
+      "theme.dark",
+      "home.searchLabel",
+      "home.searchPlaceholder",
+      "home.filterCategory",
+      "home.comingSoon",
+      "home.dailyDealTimeLeft",
+      "home.ratingLabel",
+      "locationModal.title",
+      "locationModal.note",
+      "locationModal.whileUsing",
+      "locationModal.safe",
+      "placeholder.genericBody",
+      "deals.entelPhone.description",
+      "deals.oeschle.description",
+      "deals.cineplanet.description",
+      "deals.rallykart.description",
+      "deals.smartfit.description",
+      "deals.bembosCombo.description",
+      "deals.kfc.description",
+      "deals.pizzahut.description",
+      "profile.title",
+      "profile.colorBlindMode",
+      "profile.colorBlindEnabled",
+      "profile.colorBlindDisabled",
+      "profile.personalData",
+      "profile.addresses",
+      "profile.accountDetails",
+      "profile.languageChange",
+      "profile.selectedLanguage",
+      "cityFilter.title",
+      "cityFilter.apply",
+      "categoryFilter.title",
+      "categoryFilter.apply"
+    ]
+  },
+  "language": {
+    "label": "Simi",
+    "es": "Español simi",
+    "en": "Inglés simi",
+    "qu": "Runa Simi",
+    "changed": "Simi Runa Simiman tikrachikun"
+  },
+  "theme": {
+    "toggle": "Rikch'ay tikray",
+    "toLight": "K'anchay rikch'ayta churay",
+    "toDark": "Laqha rikch'ayta churay",
+    "light": "K'anchay rikch'ay",
+    "dark": "Laqha rikch'ay",
+    "changedLight": "K'anchay rikch'ay churakun",
+    "changedDark": "Laqha rikch'ay churakun"
+  },
+  "onboarding": {
+    "welcome": "¡UTP yanapaykuna musuq aplicaciónman allin hamusqayki!",
+    "subtitle": "Qampaq ruwasqa pisiyachiykuna, llapallanpaq haykunapaq.",
+    "cta": "Qallariy",
+    "skip": "Yaykunaman riy",
+    "redirecting": "Wakichichkan..."
+  },
+  "login": {
+    "logoAlt": "UTP Yanapaykuna unancha",
+    "tagline": "¡UTP Yanapaykunawan p'unchayniykikunata kamachiy!",
+    "codeLabel": "UTP yupaywillay",
+    "codePlaceholder": "Kayhina: 1482720 utaq U71698935",
+    "codeHelper": "Ruwaqpa kaqnin: U1533148 (ama @utp.edu.pe qillqaychu)",
+    "passwordLabel": "Pakasqa rimay",
+    "passwordPlaceholder": "Pakasqa rimay",
+    "showPassword": "Pakasqa rimayta rikuchiy",
+    "hidePassword": "Pakasqa rimayta pakay",
+    "termsPrefix": "Ñawincharqani hinaspa chaskikuni kay",
+    "termsLink": "Ruwaykuna hinaspa kamachikuykuna",
+    "submit": "Yaykuy",
+    "submitting": "Yaykuchkan…",
+    "successMessage": "Yaykurqankiña. ¡UTP Yanapaykunaman allin hamusqayki!",
+    "errorMessage": "Manam yaykuyta atirqaykuchu. Yupaywillayniykita hinaspa pakasqa rimayniykita qhaway."
+  },
+  "errors": {
+    "codeRequired": "UTP yupaywillayniykita qillqay.",
+    "codeFormat": "Mana allin qillqasqa. Yupaykunallata, utaq U qillqawan yupaykunata qillqay.",
+    "passwordRequired": "Pakasqa rimayniykita qillqay.",
+    "passwordShort": "Pakasqa rimayqa tawa qillqamantawan kanan.",
+    "termsRequired": "Qatinaykipaq Ruwaykuna hinaspa kamachikuykunata chaskinayki.",
+    "summaryTitle": "Kayta qhaway:"
+  },
+  "terms": {
+    "title": "Ruwaykuna hinaspa kamachikuykuna",
+    "intro": "UTP Yanapaykunata llamk'achispaqa kay kamachikuykunata chaskinki:",
+    "body": "Pisiyachiykuna hinaspa cuponkunaqa sapa runapaqllam, mana qukuy atina; tiendapa kaqninman hina, hinaspa tukukuy p'unchayniyoq kanman. UTP Yanapaykunaqa manam huchachakunchu comerciokunapa chanin utaq kaqnin tikraymanta. Willayniykikunaqa yachaqmasi kasqaykita qhawariyllapaqmi llamk'achikun.",
+    "close": "Wichq'ay",
+    "accept": "Chaskiy hinaspa wichq'ay"
+  },
+  "nav": {
+    "home": "Qallariy",
+    "benefits": "Yanapaykuna",
+    "search": "Maskay",
+    "map": "Mapa",
+    "profile": "Willaykuna"
+  },
+  "home": {
+    "menuLabel": "Menú kichay",
+    "menuTitle": "Menú",
+    "avatarAlt": "Ruwaqpa uyan siq'i",
+    "headerTitle": "UTP Yanapaykuna",
+    "logout": "Lloqsiy",
+    "searchLabel": "Yanapaykunata maskay",
+    "searchPlaceholder": "Yanapaykunata maskay",
+    "voiceNoResults": "Manam ima tarikunchu",
+    "exploreTitle": "Qhaway",
+    "darkModeLabel": "Laqha rikch'ay",
+    "filterCity": "Llaqta",
+    "filterSort": "Order churay",
+    "filterCategory": "Rikch'aykunata akllay",
+    "comingSoon": "Kay ruwanaqa qhipaman llamk'anqa.",
+    "brandsLabel": "Sut'inchasqa qhatuykuna",
+    "seeMore": "Astawan rikuy",
+    "promoLabel": "Sut'inchasqa pisiyachiykuna",
+    "promoPrev": "Ñawpaq pisiyachiy",
+    "promoNext": "Qatiq pisiyachiy",
+    "promoGoTo": "{{n}} pisiyachiyman riy",
+    "promoSlideOf": "Pisiyachiy {{n}} / {{total}}",
+    "promoViewOffer": "Haykayta rikunanpaq ñitiy",
+    "dailyDeal": "P'unchaypa yanapaynin",
+    "dailyDealTimeLeft": "{{hours}} h {{minutes}} min qhipanmi",
+    "viewAll": "Llapanta rikuy",
+    "discountUpTo": "S/. {{amount}} kama",
+    "discountFree": "Qullqinchu",
+    "discountLabel": "pisiyachiy",
+    "ratingLabel": "{{rating}} / 5 ch'askakuna, {{reviews}} rimaykuna",
+    "scrollLeft": "Lloq'eman apay",
+    "scrollRight": "Pañaman apay",
+    "sectionScrollLabel": "{{section}} yanapaykuna"
+  },
+  "categories": {
+    "tech": "Teknolojía",
+    "entertainment": "Kusikuy",
+    "food": "Mikhuy hinaspa Ujyay",
+    "salud": "Qhali Kay hinaspa Kurku Kallpanchay"
+  },
+  "locationModal": {
+    "appIconAlt": "UTP Yanapaykuna aplicaciónpa unanchan",
+    "title": "¿UTP Yanapaykunaman kay kaqpa kaqninta rikuyta saqinkichu?",
+    "note": "Kayqa ruwasqallam: aplicaciónqa manam kaqniykita rikunchu.",
+    "precise": "Cheqaq",
+    "safe": "Segura",
+    "preciseAlt": "Cheqaq kaqnin qhawariy: mapa qayllaman, sut'i unanchayoq.",
+    "safeAlt": "Segura kaqnin qhawariy: mapa karuman, achkaqlla kitiyoq.",
+    "whileUsing": "Aplicación llamk'achkaptin",
+    "once": "Kay kutillapaq",
+    "deny": "Ama saqiychu",
+    "grantedMessage": "Ruwasqa kaqnin churakun.",
+    "deniedMessage": "Kaqninqa manam qusqachu."
+  },
+  "placeholder": {
+    "genericBody": "Kay t'iqiqa ruwakuchkanraqmi. Ashkha p'unchaykunapiña llamk'achikunqa.",
+    "back": "Qallariyman kutiy"
+  },
+  "profile": {
+    "title": "Yachaqpa willaykunan",
+    "back": "Qallariyman kutiy",
+    "notification": "Willakuykuna",
+    "editAvatar": "Uyan siq'ita tikray",
+    "colorBlindMode": "Phasqa ñawiypaq rikch'ayta churay",
+    "colorBlindEnabled": "Phasqa ñawiypaq rikch'ay churakun",
+    "colorBlindDisabled": "Phasqa ñawiypaq rikch'ay t'aqsikun",
+    "focusMode": "Allin rikunanpaq fukusu atichiy",
+    "focusEnabled": "Fukusu atichisqa",
+    "focusDisabled": "Fukusu waqllichisqa",
+    "personalData": "Willaykuna",
+    "institutionalEmail": "Institusiónpa correon",
+    "password": "Pakasqa rimay",
+    "changePassword": "Pakasqa rimayta tikray",
+    "changePasswordHint": "Pakasqa rimayta tikrayqa qhipaman llamk'anqa.",
+    "addresses": "Qillqasqa kawsakuykuna",
+    "address1": "Kawsakuy 1",
+    "address2": "Kawsakuy 2",
+    "city": "Llaqta",
+    "country": "Llaqtamama",
+    "editField": "{{field}} tikray",
+    "editComingSoon": "Willaykunata tikrayqa qhipaman llamk'anqa.",
+    "accountDetails": "Cuenta willaykuna",
+    "couponsUsed": "Llamk'achisqa cuponkuna",
+    "couponsUnused": "Mana llamk'achisqa cuponkuna",
+    "lastCoupon": "Qhipa llamk'achisqa cupón",
+    "languageChange": "Simi tikray",
+    "selectedLanguage": "Akllasqa simi"
+  },
+  "empresas": {
+    "title": "Yanapaykuna qoqkunap qatukuna",
+    "results": "taripaykuna",
+    "sortNew": "Musqoykuna",
+    "sortAZ": "A-Z ruruyman churay",
+    "brandsGrid": "Qatukuna kichay"
+  },
+  "brandDetail": {
+    "offersNearYou": "Qayllayki qhatukunapi pisiyachiykuna:",
+    "location": "Kaypi kashan:",
+    "addLocation": "Kaqniy yapay",
+    "editLocation": "Kaqniy tikray",
+    "discountsTitle": "Pisiyachiykuna hinaspa yanapaykuna:",
+    "redeemNow": "Kunanmi rantikuny",
+    "discount": "pisiyachiy",
+    "expiresInDays": "Qhatuy {{days}} p'unchaypi tukukun",
+    "addFav": "Añadir a favoritos",
+    "removeFav": "Quitar de favoritos",
+    "addedFav": "Añadido a favoritos",
+    "removedFav": "Quitado de favoritos"
+  },
+  "dealDetail": {
+    "discountPercent": "pisiyachiy",
+    "generateCoupon": "Cupón ruwachiy",
+    "couponAlreadyGenerated": "Cupón ruwasqa",
+    "viewDetails": "Kaymanta astawan rikuy",
+    "viewLocations": "Qhatukunata rikuy",
+    "couponSection": "Kay t'iqipi tikitniyki rikhurimunqa",
+    "noCodeTitle": "MANA CUPÓN RUWASQA",
+    "noCodeSubtitle": "-Manarakmi kachkan-",
+    "expiresIn": "{{time}}pi tukukun",
+    "readyToUse": "-Llamk'achinapaq kachkan-",
+    "couponEnabled": "Cupón churakun ¡Llamk'achiy!",
+    "confirmTitle": "Cupón Ruwachiy",
+    "confirmQuestion": "¿Kay cupónta ruwachita munankichu?",
+    "confirmCancel": "Mana",
+    "confirmAccept": "Arí",
+    "detailsTitle": "Yanapaymanta willakuy",
+    "termsTitle": "Ruwaykuna hinaspa kamachikuykuna",
+    "locationsTitle": "Qhatukunapi llamk'achiy atikun",
+    "conditionsTitle": "Yanapaymanta kamachikuykuna",
+    "infoTabs": "Yanapaymanta willakuy",
+    "callLabel": "Wañq'ay {{name}}",
+    "mapLabel": "Mapapi rikuy {{name}}"
+  },
+  "cityFilter": {
+    "button": "Llaqta",
+    "title": "Llaqtaykita akllay",
+    "apply": "Ruway",
+    "applied": "Llaqta filtro ruwaykun",
+    "all": "Llapan",
+    "chimbote": "Chimbote",
+    "arequipa": "Arequipa",
+    "ica": "Ica",
+    "huancayo": "Huancayo",
+    "trujillo": "Trujillo",
+    "chiclayo": "Chiclayo",
+    "lima": "Lima",
+    "iquitos": "Iquitos",
+    "piura": "Piura",
+    "tacna": "Tacna",
+    "pucallpa": "Pucallpa"
+  },
+  "favoritos": {
+    "empty": "Manam kanraq munasqa qhatuykikuna",
+    "remove": "Qichuy",
+    "removed": "favoritosmanta qichusqa"
+  },
+  "categoryFilter": {
+    "title": "Rikch'aykunata akllay",
+    "apply": "Ruway",
+    "applied": "Rikch'ay filtro ruwaykun",
+    "button": "Rikch'ay",
+    "all": "Llapan",
+    "principales": "Allin akllasqa",
+    "alimentos": "Mikhuy",
+    "modaEstilo": "P'achakuy hinaspa rikch'ay",
+    "entretenimiento": "Kusikuy",
+    "educacionIdiomas": "Yachay hinaspa simiykuna",
+    "tecnologia": "Teknolojía",
+    "tiendasViajes": "Qhatukuna hinaspa puriy",
+    "saludDeporte": "Allin kay hinaspa pukllay"
+  },
+  "brands": {
+    "bembos": {
+      "categoryTitle": "Mikhuykunapi pisiyachiykuna",
+      "location": "Lima - Los Olivos\nUTP Lima Norte qayllanpi",
+      "detailsTerms": [
+        "Kancharpi utaq deliverypi llamk'achinapaq allin.",
+        "UTP aplicación yupayta rikuchinayki tiyan.",
+        "Llaqta lliwpi qhatukunapi llapanpi."
+      ],
+      "offers": {
+        "bembos-combo": {
+          "title": "Cheese regular + papa regular + 1 gaseosa",
+          "description": "Kay pisiyachiytaqa kancharpi utaq deliverypi llamk'achiy, UTP aplicación yupayniykita rikuchispa.",
+          "imageAlt": "Bembos Parrillera Extremo combo papakunawan Inca Kolawan"
+        },
+        "bembos-queso-tocino": {
+          "title": "1 Queso Tocino + 1 Papa regular",
+          "description": "Queso Tocino hamburguesa papawan UTP yachaqkunapaq sapaq chaninpi.",
+          "imageAlt": "Bembos Queso Tocino hamburguesa papa regularwan"
+        }
+      }
+    },
+    "entel": {
+      "categoryTitle": "Teknología hinaspa yachayniyuq pisiyachiykuna",
+      "location": "Lima\nAkllasqa Entel qhatukunapi llamk'achiy atikun",
+      "detailsTerms": [
+        "UTP yachaqkunapaq allin, dokumento vigenteyoq.",
+        "Entelpa chanin qhawariy kamachikuykunaman hina.",
+        "Waq pisiyachiykunawan mana huñakunchu.",
+        "Yanapayqa qhatukunapi llamk'achiy atikun."
+      ],
+      "offers": {
+        "entel-equipo-540": {
+          "title": "S/. 540 kama pisiyachiy akllasqa equipokunapi",
+          "description": "Productopa detallenpi rikhurisqa equiponkunallapim allin.",
+          "imageAlt": "Entel smartphones S/. 540 pisiyachiywan"
+        },
+        "entel-equipo-300": {
+          "title": "S/. 300 kama pisiyachiy akllasqa equipokunapi",
+          "description": "Akllasqa modelosllapim allin, kaqninman hina.",
+          "imageAlt": "Entel celulares S/. 300 pisiyachiywan"
+        },
+        "entel-plan-power": {
+          "title": "20% pisiyachiy Plan Power 99.90pi",
+          "description": "Plan Power 99.90pi 20% pisiyachiyta hapiy promoción vigencia kama.",
+          "imageAlt": "Entel Plan Power"
+        },
+        "entel-accesorios": {
+          "title": "15% pisiyachiy akllasqa accesoriokunapi",
+          "description": "Audífonos, cargadores, parlantes hinaspa waq accesoriokunapi allin.",
+          "imageAlt": "Entel accesoriokuna"
+        }
+      }
+    },
+    "eset": {
+      "categoryTitle": "Seguridad digital pisiyachiykuna",
+      "location": "Lima\nOnline rantikuyllapim allin",
+      "detailsTerms": [
+        "Oficial online tiendallapi rantikuypaq allin.",
+        "Licenciaqa correo electrónicoman apachikun pago sut'inchakusqan qhipa.",
+        "Waq pisiyachiykunawan mana huñakunchu."
+      ],
+      "offers": {
+        "eset-antivirus-1pc": {
+          "title": "ESET Internet Security 1 equipo x 1 wata",
+          "description": "1 equipopaq licencia digital, rantikuq qhipa correopi chayanan.",
+          "imageAlt": "ESET Internet Security licencia 1 equipopaq"
+        },
+        "eset-antivirus-3pc": {
+          "title": "ESET Internet Security 3 equipos x 1 wata",
+          "description": "3 dispositivoskama huk licencia digitalwan amachay.",
+          "imageAlt": "ESET Internet Security licencia 3 equipospaq"
+        }
+      }
+    },
+    "icpna": {
+      "categoryTitle": "Simi yachay yanapaykuna",
+      "location": "Lima\nICPNA sedekuna llaqta lliwpi",
+      "detailsTerms": [
+        "UTP yachaqkunapaq allin, carnét vigenteyoq.",
+        "Ciclo renovacionkunapi mana allinchu.",
+        "Sede kaqninman hina haykuy atikun."
+      ],
+      "offers": {
+        "icpna-ingles-matricula": {
+          "title": "20% pisiyachiy inglés matríkulapi",
+          "description": "Musuq inglés general ciclokunapaq allin, presencial utaq online.",
+          "imageAlt": "ICPNA inglés curso matríkula pisiyachiywan"
+        },
+        "icpna-idiomas-adicional": {
+          "title": "15% pisiyachiy waq simikunapi",
+          "description": "Portugués, italiano hinaspa waq simi cursokunapi allin.",
+          "imageAlt": "ICPNA yapay simi cursokuna"
+        }
+      }
+    },
+    "latacona": {
+      "brand": "La Tacona",
+      "categoryTitle": "Mikhuykunapi pisiyachiykuna",
+      "location": "Lima\nUTP Lima Norte qayllanpi",
+      "detailsTerms": [
+        "Kancharpi mikhuyllapaq allin, UTP yupayta rikuchispa.",
+        "Mana upyaykunata hap'inchu.",
+        "Lunes a viernes 12 m. a 4 p.m. kama."
+      ],
+      "offers": {
+        "latacona-menu-ejecutivo": {
+          "title": "Menú ejecutivo + upyana",
+          "description": "Haykuna, mikhuy hinaspa upyanata hapin. Lunes a viernes allin.",
+          "imageAlt": "La Tacona menú ejecutivo upyanawan"
+        },
+        "latacona-parrilla-2p": {
+          "title": "Parrilla 2 runapaq",
+          "description": "Rakinapaq parrilla hunt'asqa, yachaqmasikunawan rinapaq allin.",
+          "imageAlt": "Iskay runapaq parrilla La Tacona"
+        }
+      }
+    },
+    "kfc": {
+      "categoryTitle": "Mikhuykunapi pisiyachiykuna",
+      "location": "Lima\nKFC qhatukuna llaqta lliwpi",
+      "detailsTerms": [
+        "Kancharpi, apachikuyta, deliverypi llamk'achiy atikun.",
+        "UTP aplicación yupayta qhatupi paganaykipaq rikuchiy.",
+        "Qhatukuna kaqninman hina pisiyachiy."
+      ],
+      "offers": {
+        "kfc-balde-familiar": {
+          "title": "Balde familiar 12 piezas + papas + gaseosa 1.5L",
+          "description": "Huñunakuypaq allin, deliverypi hinaspa qhatupi apaypaq allin.",
+          "imageAlt": "KFC 12 piezas balde familiar papakunawan gaseosawan"
+        },
+        "kfc-combo-completo": {
+          "title": "S/. 15 kama pisiyachiy combo completopi",
+          "description": "Combo hunt'asqa wallpa aycha t'antaykunawan yapaykunawan.",
+          "imageAlt": "KFC combo hunt'asqa wallpa aycha t'antaykunawan"
+        },
+        "kfc-combo-personal": {
+          "title": "Combo personal 2 piezas + papa + gaseosa",
+          "description": "Sapaq combo UTP yachaqkunapaq sapaq chaninpi.",
+          "imageAlt": "KFC combo personal 2 piezas papa gaseosawan"
+        }
+      }
+    },
+    "smartfit": {
+      "categoryTitle": "Gimnasio pisiyachiykuna",
+      "location": "Lima\nSmart Fit qhatukuna llaqta lliwpi",
+      "detailsTerms": [
+        "Musuq miembroskunapaq allin.",
+        "UTP carnét vigente rikuchiy qillqakuypaq.",
+        "Waq pisiyachiykunawan mana huñakunchu."
+      ],
+      "offers": {
+        "smartfit-matricula-gratis": {
+          "title": "Yaykuy qullqinchu + primer mes pisiyachiywan",
+          "description": "Killanpi qillqakuq UTP yachaqkunapaq mana yaykuy costoyoq.",
+          "imageAlt": "Smart Fitpi mana qullqiyoq yaykuy promoción"
+        },
+        "smartfit-plan-anual": {
+          "title": "20% pisiyachiy plan anualpi",
+          "description": "Plan anual hunt'asqata pagaspapi pisiyachiy.",
+          "imageAlt": "Smart Fit plan anual pisiyachiywan"
+        }
+      }
+    },
+    "oeschle": {
+      "categoryTitle": "P'achakuy hinaspa teknolojía pisiyachiykuna",
+      "location": "Lima\nOechsle qhatukuna llaqta lliwpi",
+      "detailsTerms": [
+        "UTP aplicación yupayta cajapi rikuchispa allin.",
+        "Allin ruwasqa productokunallapi hinaspa marcasllapi.",
+        "Waq pisiyachiykunawan mana huñakunchu."
+      ],
+      "offers": {
+        "oeschle-tecnologia-300": {
+          "title": "S/. 300 kama pisiyachiy teknolojíapi",
+          "description": "Akllasqa laptops hinaspa celulares qhatupi allin.",
+          "imageAlt": "Oechsle qhatupi teknolojía pisiyachiy"
+        },
+        "oeschle-moda-25": {
+          "title": "25% pisiyachiy akllasqa modapi",
+          "description": "P'acha hinaspa zapato marcas allin ruwasqakunapi allin.",
+          "imageAlt": "Oechsle qhatupi moda pisiyachiy"
+        }
+      }
+    },
+    "gmo": {
+      "categoryTitle": "Foto hinaspa impresión pisiyachiykuna",
+      "location": "Lima\nGMO qhatukuna llaqta lliwpi",
+      "detailsTerms": [
+        "UTP aplicación yupayta rikuchispa allin.",
+        "Ña pisiyachisqa productokunapi mana allinchu.",
+        "Qhatu kaqninman hina stock."
+      ],
+      "offers": {
+        "gmo-impresion-fotos": {
+          "title": "30% pisiyachiy foto reveladopi",
+          "description": "Formato estándar revelado digitalpaq allin.",
+          "imageAlt": "GMO foto revelado yanapay pisiyachiywan"
+        },
+        "gmo-camaras-15": {
+          "title": "15% pisiyachiy akllasqa cámarakunapi",
+          "description": "Akllasqa compacta cámara modelosllapim allin.",
+          "imageAlt": "GMO cámaras pisiyachiywan"
+        }
+      }
+    },
+    "cineplanet": {
+      "categoryTitle": "Kusikuy pisiyachiykuna",
+      "location": "Lima\nCineplanet qhatukuna llaqta lliwpi",
+      "detailsTerms": [
+        "UTP aplicación yupayta boleteríapi rikuchispa allin.",
+        "Mana 3D, 4DX nitaq estrenokunapaq allinchu.",
+        "Tiyana kaqninman hina pisiyachiy."
+      ],
+      "offers": {
+        "cineplanet-entrada-2x1": {
+          "title": "2x1 2D entradakunapi lunes a jueves",
+          "description": "Lunes a jueves 2D funcionkunapi allin, estrenokunapi mana.",
+          "imageAlt": "2x1 Cineplanet entradakuna promoción"
+        },
+        "cineplanet-entradas-13": {
+          "title": "S/. 13 kama pisiyachiy 2D entradakunapi",
+          "description": "2D entradakunapi, sapa pisiyachiy hukllata llamk'achikunman.",
+          "imageAlt": "2D Cineplanet entradakunapi pisiyachiy"
+        },
+        "cineplanet-combo-canchita": {
+          "title": "20% pisiyachiy canchita gaseosa combopi",
+          "description": "Canchita gaseosa mediano combo sapaq chaninpi.",
+          "imageAlt": "Cineplanet canchita gaseosa combo pisiyachiywan"
+        }
+      }
+    },
+    "pizzahut": {
+      "categoryTitle": "Mikhuykunapi pisiyachiykuna",
+      "location": "Lima\nPizza Hut qhatukuna llaqta lliwpi",
+      "detailsTerms": [
+        "Kancharpi, apachikuyta, deliverypi llamk'achiy atikun.",
+        "UTP aplicación yupayta paganaykipaq rikuchiy.",
+        "Waq pisiyachiykunawan mana huñakunchu."
+      ],
+      "offers": {
+        "pizzahut-familiar-2x1": {
+          "title": "2x1 familiar pizzakunapi clásicas",
+          "description": "Delivery, kancharpi apay utaq mikhuyllapaq allin.",
+          "imageAlt": "2x1 Pizza Hut familiar pizzakuna promoción"
+        },
+        "pizzahut-personal-20": {
+          "title": "20% pisiyachiy pizza personal + upyana",
+          "description": "Yachaqkunapaq sapaq combo, upyana personalniyoq.",
+          "imageAlt": "Pizza personal upyanawan Pizza Hut pisiyachiywan"
+        },
+        "pizzahut-combo-regular": {
+          "title": "S/. 20 kama pisiyachiy combo regularpi",
+          "description": "Combo regular akllasqa pizzayoq.",
+          "imageAlt": "Combo regular akllasqa pizzayoq Pizza Hut"
+        }
+      }
+    },
+    "rallykart": {
+      "categoryTitle": "Kusikuy pisiyachiykuna",
+      "location": "Lima\nRally Kart kanchan",
+      "detailsTerms": [
+        "UTP aplicación yupayta counterpi rikuchispa allin.",
+        "Horariota ñawpaqmanta reservay atikun.",
+        "Waq pisiyachiykunawan mana huñakunchu."
+      ],
+      "offers": {
+        "rallykart-3vueltas": {
+          "title": "3 kart phawaykuna sapaq chaninpi",
+          "description": "Lunes a viernes allin, fiestas p'unchaykunapi mana.",
+          "imageAlt": "Rally Kart kart phaway pisiyachiywan"
+        },
+        "rallykart-grupo5": {
+          "title": "5 runapaq huñu pakete 25% pisiyachiywan",
+          "description": "Yachaqmasikunawan rinapaq allin, sapa runapaq huk phaway.",
+          "imageAlt": "5 runapaq kart huñu pakete pisiyachiywan"
+        },
+        "rallykart-descuento-50": {
+          "title": "S/. 50 kama pisiyachiy phawaykunapi",
+          "description": "Phawaykunapi pisiyachiy kanmi: aslla hinaspa normal.",
+          "imageAlt": "Aslla hinaspa normal Rally Kart phawaykunapi pisiyachiy"
+        }
+      }
+    }
+  },
+  "deals": {
+    "entelPhone": {
+      "brand": "Entel",
+      "description": "Productopa detallenpi rikhurisqa equiponkunallapim allin.",
+      "imageAlt": "Iskay wayna asikuspa Samsung Galaxy A16 celularta rikuchinku, Entel Señal Power pisiyachiywan."
+    },
+    "oeschle": {
+      "brand": "Oeschle",
+      "description": "Laptopkunapi hinaspa waq equipokunapi pisiyachiy.",
+      "imageAlt": "Victus laptop gamer, Ryzen procesadoryoq RTX tarjeta gráficayoq, Oeschlepi rantikuq."
+    },
+    "cineplanet": {
+      "brand": "Cineplanet",
+      "description": "2D entradakunapi, sapa pisiyachiyqa hukllata llamk'achikunman.",
+      "imageAlt": "Cineplanet cine punkun k'anchasqa."
+    },
+    "rallykart": {
+      "brand": "Rally Kart",
+      "description": "Phawaykunapi pisiyachiy kanmi: asllamanta hinaspa hunt'asqamanta.",
+      "imageAlt": "Rally Kart phawana ñan, qhawana kitimanta rikusqa."
+    },
+    "smartfit": {
+      "brand": "Smart Fit",
+      "description": "Yaykuy qullqinchu, allichaynin qullqinchu, mana multayoq.",
+      "imageAlt": "Smart Fit gimnasiopi cardio makinakunapa kitin."
+    },
+    "bembosCombo": {
+      "brand": "Bembos",
+      "description": "Sut'inchasqa pisiyachiy: Bembos combo S/ 21.90 (regular S/ 43.50).",
+      "imageAlt": "Bembos hamburguesa combo papaskunawan."
+    },
+    "kfc": {
+      "brand": "KFC",
+      "description": "Combo hunt'asqa aycha t'antaykunawan hinaspa yapaykunawan.",
+      "imageAlt": "KFC wallpa aycha kaqllisqa combo papaskunawan."
+    },
+    "pizzahut": {
+      "brand": "Pizza Hut",
+      "description": "Combo regular, akllasqa pizzayoq.",
+      "imageAlt": "Musuq ruphachisqa Pizza Hut pizza, ch'aqtasqa."
+    },
+    "entelEquipo300": {
+      "brand": "Entel",
+      "description": "S/. 300 kama pisiyachiy akllasqa aparatokunapi.",
+      "imageAlt": "Entel celularkuna S/. 300 pisiyachiq."
+    },
+    "esetAntivirus": {
+      "brand": "Eset",
+      "description": "ESET Internet Security huk aparatopaq huk wata.",
+      "imageAlt": "ESET Internet Security licencia huk aparatopaq."
+    },
+    "cineplanetDosx1": {
+      "brand": "Cineplanet",
+      "description": "2x1 2D yaykukunapi killachaymanta illapachaykama.",
+      "imageAlt": "2x1 pisiyachiy Cineplanet yaykukunapi."
+    },
+    "rallykart3vueltas": {
+      "brand": "Rally Kart",
+      "description": "Kinsa kart kalachakuy sapaq chaninqipi.",
+      "imageAlt": "Rally Kart kalachakuykuna pisiyachiq."
+    },
+    "lataconaMenu": {
+      "brand": "La Tacona",
+      "description": "Ejecutivo mikuy hinaspa upyana sapaq chaninqipi.",
+      "imageAlt": "La Tacona ejecutivo mikuy upyanawan."
+    },
+    "smartfitAnual": {
+      "brand": "Smart Fit",
+      "description": "20% pisiyachiy wata plan hunt'asqapi.",
+      "imageAlt": "Smart Fit wata plan pisiyachiq."
+    },
+    "gmoFotos": {
+      "brand": "GMO",
+      "description": "30% pisiyachiy fotokuna reveladopi.",
+      "imageAlt": "GMO foto revelado servicio pisiyachiq."
+    },
+    "icpnaIngles": {
+      "brand": "ICPNA",
+      "description": "20% pisiyachiy inglés qillqaykuypi.",
+      "imageAlt": "ICPNA inglés curso qillqaykuy pisiyachiq."
+    }
+  },
+  "speechReader": {
+    "label": "Pantallata ñawinchay",
+    "active": "Ñawinchay kachkan",
+    "stop": "Ñawinchayta sayachiy"
+  }
+}

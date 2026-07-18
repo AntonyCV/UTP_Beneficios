@@ -1,0 +1,608 @@
+{
+  "language": {
+    "label": "Language",
+    "es": "Spanish",
+    "en": "English",
+    "qu": "Quechua",
+    "changed": "Language changed to English"
+  },
+  "theme": {
+    "toggle": "Change theme",
+    "toLight": "Switch to light mode",
+    "toDark": "Switch to dark mode",
+    "light": "Light mode",
+    "dark": "Dark mode",
+    "changedLight": "Light mode enabled",
+    "changedDark": "Dark mode enabled"
+  },
+  "onboarding": {
+    "welcome": "Welcome to the new UTP Benefits app!",
+    "subtitle": "Discounts and deals made for you, accessible to everyone.",
+    "cta": "Get started",
+    "skip": "Go to sign in",
+    "redirecting": "Redirecting..."
+  },
+  "login": {
+    "logoAlt": "UTP Benefits logo",
+    "tagline": "Own your days with UTP Benefits!",
+    "codeLabel": "UTP code",
+    "codePlaceholder": "e.g. 1482720 or U71698935",
+    "codeHelper": "Example user: U1533148 (do not type @utp.edu.pe)",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Password",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "termsPrefix": "I have read and accept the",
+    "termsLink": "Terms and conditions",
+    "submit": "Sign in",
+    "submitting": "Signing in…",
+    "successMessage": "Signed in. Welcome to UTP Benefits!",
+    "errorMessage": "We couldn't sign you in. Check your code and password."
+  },
+  "errors": {
+    "codeRequired": "Enter your UTP code.",
+    "codeFormat": "Invalid format. Use only digits, or the letter U followed by digits.",
+    "passwordRequired": "Enter your password.",
+    "passwordShort": "The password must be at least 4 characters.",
+    "termsRequired": "You must accept the Terms and conditions to continue.",
+    "summaryTitle": "Please review the following:"
+  },
+  "terms": {
+    "title": "Terms and conditions",
+    "intro": "By using UTP Benefits you accept the following terms of use:",
+    "body": "Discounts and coupons are for personal, non-transferable use, are subject to availability at each store, and may have an expiration date. UTP Benefits is not responsible for price or stock changes made by affiliated merchants. Your data is used only to verify your student status.",
+    "close": "Close",
+    "accept": "Accept and close"
+  },
+  "nav": {
+    "home": "Home",
+    "benefits": "Benefits",
+    "search": "Search",
+    "map": "Map",
+    "profile": "Profile"
+  },
+  "home": {
+    "menuLabel": "Open menu",
+    "menuTitle": "Menu",
+    "avatarAlt": "User profile photo",
+    "headerTitle": "UTP Benefits",
+    "logout": "Sign out",
+    "searchLabel": "Search benefits",
+    "searchPlaceholder": "Search benefits",
+    "voiceNoResults": "No results found",
+    "exploreTitle": "Explore",
+    "darkModeLabel": "Dark mode",
+    "filterCity": "City",
+    "filterSort": "Sort",
+    "filterCategory": "Filter categories",
+    "comingSoon": "This feature will be available soon.",
+    "brandsLabel": "Featured brands",
+    "seeMore": "See more",
+    "promoLabel": "Featured promotions",
+    "promoPrev": "Previous promotion",
+    "promoNext": "Next promotion",
+    "promoGoTo": "Go to promotion {{n}}",
+    "promoSlideOf": "Promotion {{n}} of {{total}}",
+    "promoViewOffer": "Press to view the offer",
+    "dailyDeal": "Deal of the day",
+    "dailyDealTimeLeft": "{{hours}} h {{minutes}} min left",
+    "viewAll": "View all",
+    "discountUpTo": "Up to S/. {{amount}}",
+    "discountFree": "Free",
+    "discountLabel": "off",
+    "ratingLabel": "{{rating}} out of 5 stars, {{reviews}} reviews",
+    "scrollLeft": "Scroll left",
+    "scrollRight": "Scroll right",
+    "sectionScrollLabel": "{{section}} deals"
+  },
+  "categories": {
+    "tech": "Technology",
+    "entertainment": "Entertainment",
+    "food": "Food & Drinks",
+    "salud": "Health & Sports"
+  },
+  "locationModal": {
+    "appIconAlt": "UTP Benefits app icon",
+    "title": "Allow UTP Benefits to access this device's location?",
+    "note": "This is a simulation: the app does not actually access your location.",
+    "precise": "Precise",
+    "safe": "Safe",
+    "preciseAlt": "Precise location preview: zoomed-in map with an exact marker.",
+    "safeAlt": "Safe location preview: zoomed-out map with an approximate area.",
+    "whileUsing": "While using the app",
+    "once": "Only this time",
+    "deny": "Don't allow",
+    "grantedMessage": "Simulated location enabled.",
+    "deniedMessage": "Location was not shared."
+  },
+  "placeholder": {
+    "genericBody": "This section is under construction. You'll be able to use it here very soon.",
+    "back": "Back to home"
+  },
+  "profile": {
+    "title": "Student profile",
+    "back": "Back to home",
+    "notification": "Notifications",
+    "editAvatar": "Edit profile photo",
+    "colorBlindMode": "Enable colorblind mode",
+    "colorBlindEnabled": "Colorblind mode enabled",
+    "colorBlindDisabled": "Colorblind mode disabled",
+    "focusMode": "Enable visible focus for better attention",
+    "focusEnabled": "Visible focus enabled",
+    "focusDisabled": "Visible focus disabled",
+    "personalData": "Personal data",
+    "institutionalEmail": "Institutional email",
+    "password": "Password",
+    "changePassword": "Change password",
+    "changePasswordHint": "Password change coming soon.",
+    "addresses": "Registered addresses",
+    "address1": "Address 1",
+    "address2": "Address 2",
+    "city": "City",
+    "country": "Country",
+    "editField": "Edit {{field}}",
+    "editComingSoon": "Profile editing coming soon.",
+    "accountDetails": "Account details",
+    "couponsUsed": "Coupons used",
+    "couponsUnused": "Coupons unused",
+    "lastCoupon": "Last coupon used",
+    "languageChange": "Language",
+    "selectedLanguage": "Selected language"
+  },
+  "empresas": {
+    "title": "Partner companies",
+    "results": "results",
+    "sortNew": "Newest",
+    "sortAZ": "Sort A-Z",
+    "brandsGrid": "Brand listing"
+  },
+  "brandDetail": {
+    "offersNearYou": "Offers near you:",
+    "location": "Location:",
+    "addLocation": "Add location",
+    "editLocation": "Edit location",
+    "discountsTitle": "Discounts & benefits:",
+    "redeemNow": "Redeem now",
+    "discount": "off",
+    "expiresInDays": "Offer ends in {{days}} days",
+    "addFav": "Add to favorites",
+    "removeFav": "Remove from favorites",
+    "addedFav": "Added to favorites",
+    "removedFav": "Removed from favorites"
+  },
+  "dealDetail": {
+    "discountPercent": "off",
+    "generateCoupon": "Generate coupon",
+    "couponAlreadyGenerated": "Coupon generated",
+    "viewDetails": "View details",
+    "viewLocations": "View locations",
+    "couponSection": "Your ticket will be shown here",
+    "noCodeTitle": "NO COUPON CREATED",
+    "noCodeSubtitle": "-Not ready yet-",
+    "expiresIn": "Expires in {{time}}",
+    "readyToUse": "-Ready to use-",
+    "couponEnabled": "Coupon activated — enjoy!",
+    "confirmTitle": "Generate Coupon",
+    "confirmQuestion": "Are you sure you want to generate this coupon?",
+    "confirmCancel": "Cancel",
+    "confirmAccept": "Confirm",
+    "detailsTitle": "Benefit details",
+    "termsTitle": "Terms and conditions",
+    "locationsTitle": "Available locations",
+    "conditionsTitle": "Benefit conditions",
+    "infoTabs": "Benefit information",
+    "callLabel": "Call {{name}}",
+    "mapLabel": "View on map {{name}}"
+  },
+  "cityFilter": {
+    "button": "City",
+    "title": "Select your city",
+    "apply": "Apply",
+    "applied": "City filter applied",
+    "all": "All",
+    "chimbote": "Chimbote",
+    "arequipa": "Arequipa",
+    "ica": "Ica",
+    "huancayo": "Huancayo",
+    "trujillo": "Trujillo",
+    "chiclayo": "Chiclayo",
+    "lima": "Lima",
+    "iquitos": "Iquitos",
+    "piura": "Piura",
+    "tacna": "Tacna",
+    "pucallpa": "Pucallpa"
+  },
+  "favoritos": {
+    "empty": "You don't have favorite offers yet",
+    "remove": "Remove",
+    "removed": "removed from favorites"
+  },
+  "categoryFilter": {
+    "title": "Filter categories",
+    "apply": "Apply",
+    "applied": "Category filter applied",
+    "button": "Category",
+    "all": "All",
+    "principales": "Top picks",
+    "alimentos": "Food",
+    "modaEstilo": "Fashion & style",
+    "entretenimiento": "Entertainment",
+    "educacionIdiomas": "Education & languages",
+    "tecnologia": "Technology",
+    "tiendasViajes": "Stores & travel",
+    "saludDeporte": "Health & sport"
+  },
+  "brands": {
+    "bembos": {
+      "categoryTitle": "Food discounts",
+      "location": "Lima - Los Olivos\nNear UTP Lima Norte",
+      "detailsTerms": [
+        "Valid for in-store redemption and delivery orders.",
+        "You must show your UTP app code.",
+        "Available at locations nationwide."
+      ],
+      "offers": {
+        "bembos-combo": {
+          "title": "Regular Cheese + regular fries + 1 soda",
+          "description": "Take advantage of this in-store or delivery promotion by showing your UTP app code.",
+          "imageAlt": "Bembos Parrillera and Extremo combo with fries and Inca Kola"
+        },
+        "bembos-queso-tocino": {
+          "title": "1 Bacon Cheese + 1 regular fries",
+          "description": "Bacon Cheese burger plus regular fries at a special price for UTP students.",
+          "imageAlt": "Bembos Bacon Cheese burger with regular fries"
+        }
+      }
+    },
+    "entel": {
+      "categoryTitle": "Tech & phone discounts",
+      "location": "Lima\nBenefit available at select Entel stores",
+      "detailsTerms": [
+        "Valid for UTP students with a valid ID.",
+        "Subject to Entel credit evaluation.",
+        "Not combinable with other promotions.",
+        "Benefit available at participating stores."
+      ],
+      "offers": {
+        "entel-equipo-540": {
+          "title": "Up to S/. 540 off select devices",
+          "description": "Valid only on devices shown in the product details.",
+          "imageAlt": "Entel smartphones with up to S/. 540 discount"
+        },
+        "entel-equipo-300": {
+          "title": "Up to S/. 300 off select devices",
+          "description": "Applies to select models, subject to availability.",
+          "imageAlt": "Entel phones with up to S/. 300 discount"
+        },
+        "entel-plan-power": {
+          "title": "20% off Plan Power 99.90",
+          "description": "Get 20% off your Plan Power 99.90 for the duration of the promotion.",
+          "imageAlt": "Entel Plan Power"
+        },
+        "entel-accesorios": {
+          "title": "15% off select accessories",
+          "description": "Discount valid for headphones, chargers, speakers, and other participating accessories.",
+          "imageAlt": "Entel accessories"
+        }
+      }
+    },
+    "eset": {
+      "categoryTitle": "Digital security discounts",
+      "location": "Lima\nBenefit available for online purchases",
+      "detailsTerms": [
+        "Valid only for purchases through the official online store.",
+        "The license is delivered by email after payment confirmation.",
+        "Not combinable with other promotions."
+      ],
+      "offers": {
+        "eset-antivirus-1pc": {
+          "title": "ESET Internet Security 1 device x 1 year",
+          "description": "Digital license for 1 device, delivered immediately by email after purchase.",
+          "imageAlt": "ESET Internet Security license for 1 device"
+        },
+        "eset-antivirus-3pc": {
+          "title": "ESET Internet Security 3 devices x 1 year",
+          "description": "Protect up to 3 devices with a single digital license.",
+          "imageAlt": "ESET Internet Security license for 3 devices"
+        }
+      }
+    },
+    "icpna": {
+      "categoryTitle": "Language course discounts",
+      "location": "Lima\nICPNA locations nationwide",
+      "detailsTerms": [
+        "Valid for UTP students with a valid ID card.",
+        "Does not apply to cycle renewals.",
+        "Spots subject to availability at each location."
+      ],
+      "offers": {
+        "icpna-ingles-matricula": {
+          "title": "20% off English enrollment",
+          "description": "Valid for new general English cycles, in-person or online.",
+          "imageAlt": "ICPNA English course with enrollment discount"
+        },
+        "icpna-idiomas-adicional": {
+          "title": "15% off other languages",
+          "description": "Applies to Portuguese, Italian, and other available language courses.",
+          "imageAlt": "ICPNA additional language courses"
+        }
+      }
+    },
+    "latacona": {
+      "brand": "La Tacona",
+      "categoryTitle": "Food discounts",
+      "location": "Lima\nNear UTP Lima Norte",
+      "detailsTerms": [
+        "Valid for in-store dining by showing your UTP code.",
+        "Does not include alcoholic beverages.",
+        "Valid hours: Monday to Friday from 12 p.m. to 4 p.m."
+      ],
+      "offers": {
+        "latacona-menu-ejecutivo": {
+          "title": "Executive menu + drink",
+          "description": "Includes starter, main course, and drink. Valid Monday to Friday.",
+          "imageAlt": "La Tacona executive menu with drink"
+        },
+        "latacona-parrilla-2p": {
+          "title": "Grill for 2 people",
+          "description": "Full grill to share, ideal for going with a classmate.",
+          "imageAlt": "Grill for two at La Tacona"
+        }
+      }
+    },
+    "kfc": {
+      "categoryTitle": "Food discounts",
+      "location": "Lima\nKFC locations nationwide",
+      "detailsTerms": [
+        "Valid for in-store orders, pickup, and delivery.",
+        "Show your UTP app code before paying.",
+        "Promotion subject to availability at participating locations."
+      ],
+      "offers": {
+        "kfc-balde-familiar": {
+          "title": "12-piece family bucket + fries + 1.5L soda",
+          "description": "Ideal for sharing with a group, valid for delivery and in-store pickup.",
+          "imageAlt": "KFC 12-piece family bucket with fries and soda"
+        },
+        "kfc-combo-completo": {
+          "title": "Up to S/. 15 off full combo",
+          "description": "Full combo with chicken pieces and sides.",
+          "imageAlt": "KFC full combo with chicken pieces and sides"
+        },
+        "kfc-combo-personal": {
+          "title": "Personal combo 2 pieces + fries + soda",
+          "description": "Individual combo at a special price for UTP students.",
+          "imageAlt": "KFC personal combo of 2 pieces with fries and soda"
+        }
+      }
+    },
+    "smartfit": {
+      "categoryTitle": "Gym discounts",
+      "location": "Lima\nSmart Fit locations nationwide",
+      "detailsTerms": [
+        "Valid only for new memberships.",
+        "Show valid UTP ID at the time of enrollment.",
+        "Not combinable with other current promotions."
+      ],
+      "offers": {
+        "smartfit-matricula-gratis": {
+          "title": "Free enrollment + first month discount",
+          "description": "No enrollment fee for new UTP students who sign up this month.",
+          "imageAlt": "Free enrollment promotion at Smart Fit"
+        },
+        "smartfit-plan-anual": {
+          "title": "20% off annual plan",
+          "description": "Discount applied when paying for the full annual plan.",
+          "imageAlt": "Smart Fit annual plan with discount"
+        }
+      }
+    },
+    "oeschle": {
+      "categoryTitle": "Fashion & tech discounts",
+      "location": "Lima\nOechsle stores nationwide",
+      "detailsTerms": [
+        "Valid by showing your UTP app code at checkout.",
+        "Applies only to participating products and brands.",
+        "Not combinable with other promotions or discount cards."
+      ],
+      "offers": {
+        "oeschle-tecnologia-300": {
+          "title": "Up to S/. 300 off tech items",
+          "description": "Valid on select laptops and phones from the store.",
+          "imageAlt": "Tech discount at Oechsle store"
+        },
+        "oeschle-moda-25": {
+          "title": "25% off select fashion items",
+          "description": "Applies to clothing and footwear from participating brands.",
+          "imageAlt": "Fashion discount at Oechsle store"
+        }
+      }
+    },
+    "gmo": {
+      "categoryTitle": "Photo & printing discounts",
+      "location": "Lima\nGMO stores nationwide",
+      "detailsTerms": [
+        "Valid by showing your UTP app code.",
+        "Does not apply to already discounted products.",
+        "Subject to stock availability at each store."
+      ],
+      "offers": {
+        "gmo-impresion-fotos": {
+          "title": "30% off photo printing",
+          "description": "Valid for digital printing in standard format.",
+          "imageAlt": "GMO photo printing service with discount"
+        },
+        "gmo-camaras-15": {
+          "title": "15% off select cameras",
+          "description": "Applies to select compact camera models.",
+          "imageAlt": "GMO cameras with discount"
+        }
+      }
+    },
+    "cineplanet": {
+      "categoryTitle": "Entertainment discounts",
+      "location": "Lima\nCineplanet theaters nationwide",
+      "detailsTerms": [
+        "Valid by showing your UTP app code at the box office.",
+        "Not valid for 3D, 4DX screenings or premieres.",
+        "Promotion subject to seat availability."
+      ],
+      "offers": {
+        "cineplanet-entrada-2x1": {
+          "title": "2x1 on 2D tickets Monday to Thursday",
+          "description": "Valid Monday to Thursday for 2D screenings, not valid for premieres.",
+          "imageAlt": "2x1 promotion on Cineplanet tickets"
+        },
+        "cineplanet-entradas-13": {
+          "title": "Up to S/. 13 off 2D tickets",
+          "description": "On 2D tickets, each promotion can be used once.",
+          "imageAlt": "Discount on 2D Cineplanet tickets"
+        },
+        "cineplanet-combo-canchita": {
+          "title": "20% off popcorn + soda combo",
+          "description": "Medium popcorn and soda combo at a special price.",
+          "imageAlt": "Cineplanet popcorn and soda combo with discount"
+        }
+      }
+    },
+    "pizzahut": {
+      "categoryTitle": "Food discounts",
+      "location": "Lima\nPizza Hut locations nationwide",
+      "detailsTerms": [
+        "Valid for in-store orders, pickup, and delivery.",
+        "Show your UTP app code before paying.",
+        "Not combinable with other promotions."
+      ],
+      "offers": {
+        "pizzahut-familiar-2x1": {
+          "title": "2x1 on classic family pizzas",
+          "description": "Valid for delivery orders, in-store pickup, or dine-in.",
+          "imageAlt": "2x1 promotion on family pizzas at Pizza Hut"
+        },
+        "pizzahut-personal-20": {
+          "title": "20% off personal pizza + drink",
+          "description": "Individual combo ideal for students, includes a personal drink.",
+          "imageAlt": "Personal pizza with drink at Pizza Hut with discount"
+        },
+        "pizzahut-combo-regular": {
+          "title": "Up to S/. 20 off regular combo",
+          "description": "Regular combo with pizza of your choice.",
+          "imageAlt": "Regular combo with pizza of your choice at Pizza Hut"
+        }
+      }
+    },
+    "rallykart": {
+      "categoryTitle": "Entertainment discounts",
+      "location": "Lima\nRally Kart location",
+      "detailsTerms": [
+        "Valid by showing your UTP app code at the counter.",
+        "It is recommended to book in advance.",
+        "Not combinable with other current promotions."
+      ],
+      "offers": {
+        "rallykart-3vueltas": {
+          "title": "3 go-kart races at a special price",
+          "description": "Valid Monday to Friday, not valid on holidays.",
+          "imageAlt": "Rally Kart go-kart races with discount"
+        },
+        "rallykart-grupo5": {
+          "title": "Group pack for 5 people with 25% off",
+          "description": "Ideal for going with your class group, includes one race per person.",
+          "imageAlt": "Group go-kart pack for 5 people with discount"
+        },
+        "rallykart-descuento-50": {
+          "title": "Up to S/. 50 off races",
+          "description": "Discount available on short and regular races.",
+          "imageAlt": "Discount on short and regular Rally Kart races"
+        }
+      }
+    }
+  },
+  "deals": {
+    "entelPhone": {
+      "brand": "Entel",
+      "description": "Valid only on devices shown in the product details.",
+      "imageAlt": "Two young people smiling while showing a Samsung Galaxy A16 phone with the Entel Señal Power promotion."
+    },
+    "oeschle": {
+      "brand": "Oeschle",
+      "description": "Discount on laptops and other devices for sale.",
+      "imageAlt": "Victus gaming laptop with a Ryzen processor and RTX graphics card on offer at Oeschle."
+    },
+    "cineplanet": {
+      "brand": "Cineplanet",
+      "description": "On 2D tickets, each promotion can be used once.",
+      "imageAlt": "Lit-up storefront of a Cineplanet movie theater."
+    },
+    "rallykart": {
+      "brand": "Rally Kart",
+      "description": "Discount available on short and regular races.",
+      "imageAlt": "Rally Kart go-kart track seen from the stands."
+    },
+    "smartfit": {
+      "brand": "Smart Fit",
+      "description": "Free enrollment plus free maintenance, no penalty.",
+      "imageAlt": "Cardio machine area at a Smart Fit gym."
+    },
+    "bembosCombo": {
+      "brand": "Bembos",
+      "description": "Special offer: Bembos combo for only S/ 21.90 (regular S/ 43.50).",
+      "imageAlt": "Bembos burger and fries combo."
+    },
+    "kfc": {
+      "brand": "KFC",
+      "description": "Full combo with chicken pieces and sides.",
+      "imageAlt": "KFC fried chicken combo with fries."
+    },
+    "pizzahut": {
+      "brand": "Pizza Hut",
+      "description": "Regular combo with pizza of your choice.",
+      "imageAlt": "Freshly baked Pizza Hut pizza cut into slices."
+    },
+    "entelEquipo300": {
+      "brand": "Entel",
+      "description": "Up to S/. 300 off selected devices.",
+      "imageAlt": "Entel phones with up to S/. 300 discount."
+    },
+    "esetAntivirus": {
+      "brand": "Eset",
+      "description": "ESET Internet Security for 1 device for 1 year.",
+      "imageAlt": "ESET Internet Security license for 1 device."
+    },
+    "cineplanetDosx1": {
+      "brand": "Cineplanet",
+      "description": "2x1 on 2D tickets Monday through Thursday.",
+      "imageAlt": "2x1 Cineplanet ticket promotion."
+    },
+    "rallykart3vueltas": {
+      "brand": "Rally Kart",
+      "description": "3 go-kart races at a special price.",
+      "imageAlt": "Rally Kart go-kart races with discount."
+    },
+    "lataconaMenu": {
+      "brand": "La Tacona",
+      "description": "Executive lunch plus drink at a special price.",
+      "imageAlt": "La Tacona executive lunch with drink."
+    },
+    "smartfitAnual": {
+      "brand": "Smart Fit",
+      "description": "20% off the full annual plan.",
+      "imageAlt": "Smart Fit annual plan with discount."
+    },
+    "gmoFotos": {
+      "brand": "GMO",
+      "description": "30% off photo printing.",
+      "imageAlt": "GMO photo printing service with discount."
+    },
+    "icpnaIngles": {
+      "brand": "ICPNA",
+      "description": "20% off English enrollment.",
+      "imageAlt": "ICPNA English course with enrollment discount."
+    }
+  },
+  "speechReader": {
+    "label": "Read aloud",
+    "active": "Read mode",
+    "stop": "Stop reading"
+  }
+}
