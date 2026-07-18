@@ -1,3 +1,4 @@
+import { Search } from 'lucide-react'
 import { useEffect } from 'react'
 import { useNavigate, Navigate, Route, Routes } from 'react-router-dom'
 import { AppLayout } from './components/AppLayout'
