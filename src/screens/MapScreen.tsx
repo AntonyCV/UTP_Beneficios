@@ -1,16 +1,18 @@
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
 import { useEffect, useRef } from 'react'
-
-// Fix: usar iconos locales en vez de rutas rotas del bundler
-delete (L.Icon.Default.prototype as any)._getIconUrl
-L.Icon.Default.mergeOptions({
-  iconRetinaUrl: '/img/leaflet/marker-icon-2x.png',
-  iconUrl: '/img/leaflet/marker-icon.png',
-  shadowUrl: '/img/leaflet/marker-shadow.png',
-})
 import { useTranslation } from 'react-i18next'
 import { useNavigate } from 'react-router-dom'
+
+const markerIcon = new L.Icon({
+  iconUrl: '/img/leaflet/marker-icon.png',
+  iconRetinaUrl: '/img/leaflet/marker-icon-2x.png',
+  shadowUrl: '/img/leaflet/marker-shadow.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41],
+})
 
 interface MapBrand {
   id: string
@@ -54,11 +56,13 @@ export function MapScreen() {
       }).addTo(map)
 
       MAP_BRANDS.forEach((brand) => {
-        const marker = L.marker([brand.lat, brand.lng])
+        const marker = L.marker([brand.lat, brand.lng], { icon: markerIcon })
           .addTo(map)
           .bindPopup(`<strong>${brand.name}</strong>`)
         marker.on('click', () => navigate(`/marca/${brand.id}`))
       })
+
+      setTimeout(() => map.invalidateSize(), 200)
 
       mapInstanceRef.current = map
     }
