@@ -1,5 +1,5 @@
-import { Search } from 'lucide-react'
-import { Navigate, Route, Routes } from 'react-router-dom'
+import { useEffect } from 'react'
+import { useNavigate, Navigate, Route, Routes } from 'react-router-dom'
 import { AppLayout } from './components/AppLayout'
 import { StatusLayer } from './components/StatusLayer'
 import { useApp } from './context/AppContext'
@@ -20,6 +20,14 @@ function RequireAuth({ children }: { children: JSX.Element }) {
 }
 
 export default function App() {
+  const navigate = useNavigate()
+  useEffect(() => {
+    const saved = sessionStorage.getItem('spa-redirect')
+    if (saved) {
+      sessionStorage.removeItem('spa-redirect')
+      navigate(saved, { replace: true })
+    }
+  }, [navigate])
   return (
     <>
       <StatusLayer />
